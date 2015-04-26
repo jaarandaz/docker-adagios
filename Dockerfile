@@ -70,5 +70,7 @@ VOLUME /etc/nagios3
 VOLUME /etc/nagios-plugins
 VOLUME /etc/adagios
 VOLUME /etc/pnp4nagios
+VOLUME /etc/apache2
+
 
 CMD ["/usr/local/bin/start_adagios"]
